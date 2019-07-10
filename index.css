@@ -4,8 +4,8 @@ body {
 }
 
 .wrapper {
-  border: solid orange 3px;
-  height: 800px;
+  height: 868px;
+  border: solid transparent;
 }
 
 .rightBox {
@@ -23,7 +23,8 @@ body {
 }
 
 .signInText a {
-text-decoration: none;
+  text-decoration: none;
+  color: #0077C5;
 }
 
 .signInButton {
@@ -40,6 +41,7 @@ text-decoration: none;
   background-color: #0077C5;
   border: 1px solid #4c4c4c;
 }
+
 .logo {
   width: 300px;
   margin: auto;
@@ -72,6 +74,7 @@ text-decoration: none;
 
 .logoText {
   display: inline-block;
+  color: #505050;
 }
 
 form {
@@ -120,13 +123,18 @@ input {
 .pForm {
   font-size: 14px;
   color: #4C4C4C;
-  line-height: 1.2;
+  line-height: 0.4;
 }
 
 .learnMore{
   font-size: 12px;
-}
+  line-height: 0.1;
 
+}
+.learnMore a {
+  color: #0077C5;
+  text-decoration: none;
+}
 .standardCall{
   padding: 5px 0;
   font-size: 10px;
@@ -169,10 +177,21 @@ input {
 
 .termsText a {
   text-decoration: none;
+  color: #0077C5;
 }
 
 footer {
-  border: solid black 1px;
-  width: 650px;
+  width: 700px;
   margin: auto;
+  color: #505050;
+  font-size: 12px;
+  text-align: center;
+  line-height: 0.5;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+footer a {
+  margin-right: 7px;
+  color: #505050;
+  text-decoration: none;
 }
