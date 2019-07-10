@@ -75,18 +75,24 @@ text-decoration: none;
 }
 
 form {
-  border: solid black 1px;
   margin: auto;
   height: 800px;
   width: 380px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  border: 1px solid #c7c7c7;
+  font-weight: 400;
 }
 
 label {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 25px;
   width: 320px;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 input {
@@ -95,8 +101,44 @@ input {
   margin-right: auto;
   width: 320px;
   height: 34px;
+  box-sizing: border-box;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  line-height: 1.3em;
 }
 
 .formText {
   text-align: center;
+}
+
+.titleForm {
+  font-size: 24px;
+  color: #4C4C4C;
+  line-height: 1.1;
+}
+.pForm {
+  font-size: 14px;
+  color: #4C4C4C;
+  line-height: 1.2;
+}
+.learnMore{
+  font-size: 12px;
+}
+.standardCall{
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  width: 320px;
+  margin: auto;
+}
+.submitButton{
+  margin-top: 25px;
+  background: #0077C5;
+  border: #0077C5;
+  border-radius: 4px;
+  height: 44px;
+  text-shadow: none;
+  font-weight: 400;
+  color: #FFF;
+  font-size: 1.125em;
 }
