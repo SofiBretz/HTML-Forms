@@ -41,32 +41,62 @@ text-decoration: none;
   border: 1px solid #4c4c4c;
 }
 .logo {
-  border: solid red 2px;
-  width: 380px;
+  width: 300px;
   margin: auto;
+  margin-top: 80px;
 }
 
 .intuitLogo img {
-  border: solid black 1px;
-  margin-top: 80px;
   height: 90px;
   width: 180px;
+  opacity: 0.4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .miniLogo img {
   height: 23px;
   width: 23px;
-  border: solid blue 2px;
   vertical-align: middle;
 }
 
+.logoWrap {
+  text-align: center;
+}
+
 .miniLogo {
+  margin-top: -20px;
   display: inline-block;
-  border: solid pink 2px;
-  height: 34px;
 }
 
 .logoText {
   display: inline-block;
-  border: solid blue 2px;
+}
+
+form {
+  border: solid black 1px;
+  margin: auto;
+  height: 800px;
+  width: 380px;
+}
+
+label {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 320px;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 34px;
+}
+
+.formText {
+  text-align: center;
 }
