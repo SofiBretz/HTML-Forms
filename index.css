@@ -42,7 +42,7 @@ text-decoration: none;
 }
 .logo {
   border: solid red 2px;
-  width: 180px;
+  width: 380px;
   margin: auto;
 }
 
@@ -54,11 +54,19 @@ text-decoration: none;
 }
 
 .miniLogo img {
-  margin: 10px;
   height: 23px;
   width: 23px;
+  border: solid blue 2px;
+  vertical-align: middle;
 }
 
 .miniLogo {
   display: inline-block;
+  border: solid pink 2px;
+  height: 34px;
+}
+
+.logoText {
+  display: inline-block;
+  border: solid blue 2px;
 }
