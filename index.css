@@ -1,8 +1,26 @@
-.rightButton{
-  color: #0077C5;
+.rightBox {
+  height: 80px;
+  float: right;
+  border: solid black 1px;
 }
 
+.signInText {
+  height: 100%;
+  border: solid red 1px;
+  float: left;
+}
 
-#signUpRightButton{
-  background-color: : #0077C5;
+.signInButton {
+  height: 100%;
+  text-align: center;
+  border: solid red 1px;
+  float: right;
+}
+
+.rightButton{
+  height: 34px;
+  width: 102px;
+  color: white;
+  border-radius: 3px;
+  background-color: #0077C5;
 }
