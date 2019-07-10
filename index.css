@@ -1,6 +1,13 @@
 body {
   font-family: Roboto;
+  background-color: #ECEEF1;
 }
+
+.wrapper {
+  border: solid orange 3px;
+  height: 800px;
+}
+
 .rightBox {
   height: 40px;
   float: right;
@@ -32,6 +39,26 @@ text-decoration: none;
   border-radius: 4px;
   background-color: #0077C5;
   border: 1px solid #4c4c4c;
+}
+.logo {
+  border: solid red 2px;
+  width: 180px;
+  margin: auto;
+}
 
+.intuitLogo img {
+  border: solid black 1px;
+  margin-top: 80px;
+  height: 90px;
+  width: 180px;
+}
 
+.miniLogo img {
+  margin: 10px;
+  height: 23px;
+  width: 23px;
+}
+
+.miniLogo {
+  display: inline-block;
 }
