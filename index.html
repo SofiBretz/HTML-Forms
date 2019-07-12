@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <title>PROJECT: HTML FORMS</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+          <div class="rightBox">
+          <!-- Sign in Text-->
+          <div class="signInText">
+            <p>Already have an Intuit account?</p>
+            <a href="#"><p>I forgot my User ID or Password</p></a>
+          </div>
+
+          <!-- Sign in Button-->
+          <div class="signInButton">
+            <button class="rightButton"><i class="fas fa-lock"></i>  Sign In</button>
+          </div>
+         </div>
+     </header>
+
+       <!-- Logo Section -->
+       <div class="logo">
+         <div class="intuitLogo">
+           <img src="https://www.intuit.com/content/dam/intuit/intuitcom/company/images/logo-intuit-black.png" alt="Intuit Logo">
+         </div>
+
+        <div class="logoWrap">
+
+          <div class="miniLogo">
+           <img src="https://site-images.similarcdn.com/url?url=https%3A%2F%2Flh3.googleusercontent.com%2FkAoKkNJy81qdxeSexsfsfH6DEz114px1qx9zg0Hj3RoonLXxXRBbEp0xIZVVElgihQ%3Ds180&h=799cf9bd518047ef77277dc824203bc9cd3ca2b7b116a4cd7a17856c414cd891" alt="Mint Logo">
+           <p class="logoText">mint</p>
+          </div>
+
+          <div class="miniLogo">
+           <img src="https://www.klipfolio.com/sites/default/files/integrations/quickbooks.png" alt="Quickbooks Logo">
+           <p class="logoText">quickbooks</p>
+          </div>
+
+          <div class="miniLogo">
+           <img src="https://images-na.ssl-images-amazon.com/images/I/41+s7UMMl-L._SL210_QL95_BG0,0,0,0_FMpng_.png" alt="Turbotax Logo">
+           <p class="logoText">turbotax</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Form -->
+      <main id="mainContent">
+          <form class="" action="index.html" method="post">
+
+            <div class="formTopText">
+              <p class="titleForm">Create an Intuit Account</p>
+              <p class="pForm">One account for everything Intuit, including Mint.</p>
+              <a href="#"><p class="learnMore">Learn more</p></a>
+            </div>
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" value="">
+
+            <label for="phone">Phone (recommended)</label>
+            <input type="tel" id="phone" value="">
+            <p class="standardCall">Standard call, messaging or data rates may apply.</p>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" value="">
+
+            <button class="submitButton" type="submit" name="submit"><i class="fas fa-lock"></i>   Create Account</button>
+
+            <div class="formBottomText">
+              <p>By clicking Create Account, you agree to our</p>
+              <p><a href="#">Terms of Service</a> and have read and acknowledge</p>
+              <p>our <a href="#">Privacy Statement.</a></p>
+            </div>
+            
+          </form>
+    </main>
+
+      <footer>
+        <a href="#">Legal</a> <a href="#">Privacy</a> <a href="#">Security</a>
+        <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
