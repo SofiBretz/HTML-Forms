@@ -110,7 +110,7 @@ input {
   line-height: 1.3em;
 }
 
-.formText {
+.formTopText {
   text-align: center;
 }
 
@@ -163,7 +163,7 @@ input {
   font-size: 13px;
 }
 
-.termsText {
+.formBottomText {
   box-sizing: border-box;
   width: 320px;
   margin: auto;
@@ -175,7 +175,7 @@ input {
   line-height: 1.5;
 }
 
-.termsText a {
+.formBottomText a {
   text-decoration: none;
   color: #0077C5;
 }
